@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/rvFragment"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="RecyclerView" />
+    <item
+        android:id="@+id/tabLayoutFragment"
+        android:icon="@drawable/ic_baseline_switch_left_24"
+        android:title="Tab Layout" />
+</menu>

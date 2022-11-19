@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/rvFragment">
+
+    <fragment
+        android:id="@+id/rvFragment"
+        android:name="com.myapp.androidexcercisesil.fragments.rvFragment"
+        android:label="RecyclerView"
+        tools:layout="@layout/fragment_rv" />
+    <fragment
+        android:id="@+id/tabLayoutFragment"
+        android:name="com.myapp.androidexcercisesil.fragments.TabLayoutFragment"
+        android:label="Tab Layout"
+        tools:layout="@layout/fragment_tab_layout" />
+</navigation>
